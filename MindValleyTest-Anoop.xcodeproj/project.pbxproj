@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F8D25221CBAA4F800816007 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D251D1CBAA4F800816007 /* NetworkManager.m */; };
+		5F8D25231CBAA4F800816007 /* PinImagCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D251F1CBAA4F800816007 /* PinImagCacheManager.m */; };
+		5F8D25241CBAA4F800816007 /* PinImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D25211CBAA4F800816007 /* PinImageDownloader.m */; };
+		5F8D252C1CBAA5B000816007 /* MVPinBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D252B1CBAA5B000816007 /* MVPinBoardViewController.m */; };
+		5F8D25311CBAA5DD00816007 /* PinItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D25301CBAA5DD00816007 /* PinItem.m */; };
+		5F8D25391CBAA9FC00816007 /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D25381CBAA9FC00816007 /* Pin.m */; };
+		5F8D25411CBAAA9A00816007 /* UIImageView+AsyncImageLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D25401CBAAA9A00816007 /* UIImageView+AsyncImageLoading.m */; };
 		5FEC7B9A1CB90116001415F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC7B991CB90116001415F7 /* main.m */; };
 		5FEC7B9D1CB90116001415F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC7B9C1CB90116001415F7 /* AppDelegate.m */; };
-		5FEC7BA01CB90116001415F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC7B9F1CB90116001415F7 /* ViewController.m */; };
 		5FEC7BA31CB90116001415F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEC7BA11CB90116001415F7 /* Main.storyboard */; };
 		5FEC7BA51CB90116001415F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEC7BA41CB90116001415F7 /* Assets.xcassets */; };
 		5FEC7BA81CB90116001415F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEC7BA61CB90116001415F7 /* LaunchScreen.storyboard */; };
@@ -35,12 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F8D251C1CBAA4F800816007 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		5F8D251D1CBAA4F800816007 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		5F8D251E1CBAA4F800816007 /* PinImagCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinImagCacheManager.h; sourceTree = "<group>"; };
+		5F8D251F1CBAA4F800816007 /* PinImagCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinImagCacheManager.m; sourceTree = "<group>"; };
+		5F8D25201CBAA4F800816007 /* PinImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinImageDownloader.h; sourceTree = "<group>"; };
+		5F8D25211CBAA4F800816007 /* PinImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinImageDownloader.m; sourceTree = "<group>"; };
+		5F8D252A1CBAA5B000816007 /* MVPinBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPinBoardViewController.h; sourceTree = "<group>"; };
+		5F8D252B1CBAA5B000816007 /* MVPinBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPinBoardViewController.m; sourceTree = "<group>"; };
+		5F8D252F1CBAA5DD00816007 /* PinItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinItem.h; sourceTree = "<group>"; };
+		5F8D25301CBAA5DD00816007 /* PinItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinItem.m; sourceTree = "<group>"; };
+		5F8D25371CBAA9FC00816007 /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
+		5F8D25381CBAA9FC00816007 /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
+		5F8D253F1CBAAA9A00816007 /* UIImageView+AsyncImageLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AsyncImageLoading.h"; sourceTree = "<group>"; };
+		5F8D25401CBAAA9A00816007 /* UIImageView+AsyncImageLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AsyncImageLoading.m"; sourceTree = "<group>"; };
 		5FEC7B951CB90116001415F7 /* MindValleyTest-Anoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MindValleyTest-Anoop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEC7B991CB90116001415F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FEC7B9B1CB90116001415F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FEC7B9C1CB90116001415F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5FEC7B9E1CB90116001415F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5FEC7B9F1CB90116001415F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5FEC7BA21CB90116001415F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FEC7BA41CB90116001415F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FEC7BA71CB90116001415F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +96,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F8D251B1CBAA4F800816007 /* MVAsyncLoaderLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D251C1CBAA4F800816007 /* NetworkManager.h */,
+				5F8D251D1CBAA4F800816007 /* NetworkManager.m */,
+				5F8D251E1CBAA4F800816007 /* PinImagCacheManager.h */,
+				5F8D251F1CBAA4F800816007 /* PinImagCacheManager.m */,
+				5F8D25201CBAA4F800816007 /* PinImageDownloader.h */,
+				5F8D25211CBAA4F800816007 /* PinImageDownloader.m */,
+			);
+			path = MVAsyncLoaderLibrary;
+			sourceTree = "<group>";
+		};
+		5F8D25281CBAA5B000816007 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D25291CBAA5B000816007 /* PinBoard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5F8D25291CBAA5B000816007 /* PinBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D252A1CBAA5B000816007 /* MVPinBoardViewController.h */,
+				5F8D252B1CBAA5B000816007 /* MVPinBoardViewController.m */,
+			);
+			path = PinBoard;
+			sourceTree = "<group>";
+		};
+		5F8D252D1CBAA5DD00816007 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D252E1CBAA5DD00816007 /* Pin */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F8D252E1CBAA5DD00816007 /* Pin */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D252F1CBAA5DD00816007 /* PinItem.h */,
+				5F8D25301CBAA5DD00816007 /* PinItem.m */,
+			);
+			path = Pin;
+			sourceTree = "<group>";
+		};
+		5F8D25351CBAA9FC00816007 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D25361CBAA9FC00816007 /* Pin */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5F8D25361CBAA9FC00816007 /* Pin */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D25371CBAA9FC00816007 /* Pin.h */,
+				5F8D25381CBAA9FC00816007 /* Pin.m */,
+			);
+			path = Pin;
+			sourceTree = "<group>";
+		};
+		5F8D253D1CBAAA9A00816007 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D253E1CBAAA9A00816007 /* UIImageView+AsyncImageLoading */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5F8D253E1CBAAA9A00816007 /* UIImageView+AsyncImageLoading */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D253F1CBAAA9A00816007 /* UIImageView+AsyncImageLoading.h */,
+				5F8D25401CBAAA9A00816007 /* UIImageView+AsyncImageLoading.m */,
+			);
+			path = "UIImageView+AsyncImageLoading";
+			sourceTree = "<group>";
+		};
 		5FEC7B8C1CB90116001415F7 = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +202,13 @@
 			children = (
 				5FEC7B9B1CB90116001415F7 /* AppDelegate.h */,
 				5FEC7B9C1CB90116001415F7 /* AppDelegate.m */,
-				5FEC7B9E1CB90116001415F7 /* ViewController.h */,
-				5FEC7B9F1CB90116001415F7 /* ViewController.m */,
-				5FEC7BA11CB90116001415F7 /* Main.storyboard */,
+				5F8D251B1CBAA4F800816007 /* MVAsyncLoaderLibrary */,
+				5F8D25351CBAA9FC00816007 /* Modal */,
+				5F8D252D1CBAA5DD00816007 /* View */,
+				5F8D25281CBAA5B000816007 /* ViewController */,
+				5F8D253D1CBAAA9A00816007 /* Categories */,
 				5FEC7BA41CB90116001415F7 /* Assets.xcassets */,
+				5FEC7BA11CB90116001415F7 /* Main.storyboard */,
 				5FEC7BA61CB90116001415F7 /* LaunchScreen.storyboard */,
 				5FEC7BA91CB90116001415F7 /* Info.plist */,
 				5FEC7B981CB90116001415F7 /* Supporting Files */,
@@ -270,9 +372,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FEC7BA01CB90116001415F7 /* ViewController.m in Sources */,
+				5F8D25241CBAA4F800816007 /* PinImageDownloader.m in Sources */,
+				5F8D25221CBAA4F800816007 /* NetworkManager.m in Sources */,
+				5F8D25411CBAAA9A00816007 /* UIImageView+AsyncImageLoading.m in Sources */,
+				5F8D25311CBAA5DD00816007 /* PinItem.m in Sources */,
 				5FEC7B9D1CB90116001415F7 /* AppDelegate.m in Sources */,
 				5FEC7B9A1CB90116001415F7 /* main.m in Sources */,
+				5F8D252C1CBAA5B000816007 /* MVPinBoardViewController.m in Sources */,
+				5F8D25391CBAA9FC00816007 /* Pin.m in Sources */,
+				5F8D25231CBAA4F800816007 /* PinImagCacheManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MindValleyTest-Anoop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anoop.MindValleyTest-Anoop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "MindValleyTest-Anoop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anoop.MindValleyTest-Anoop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +608,7 @@
 				5FEC7BC41CB90116001415F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FEC7BC51CB90116001415F7 /* Build configuration list for PBXNativeTarget "MindValleyTest-AnoopTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +617,7 @@
 				5FEC7BC71CB90116001415F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FEC7BC81CB90116001415F7 /* Build configuration list for PBXNativeTarget "MindValleyTest-AnoopUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +626,7 @@
 				5FEC7BCA1CB90116001415F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
